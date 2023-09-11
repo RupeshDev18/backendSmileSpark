@@ -1,7 +1,7 @@
 Just a backend Service which will provide pickuplines based on category.
 <br/>
 Website is live on : <br/>
-https://smile-spark-4d2n.onrender.com/api/pickup-line/funny 
+1. https://smile-spark.onrender.com/api/pickup-line/funny 
 <br/>
 just change category <br/>
 categories available: <br/>
@@ -13,3 +13,7 @@ categories available: <br/>
 6. clever <br/>
 7. smooth <br/>
 8. flirty <br/>
+<br/><br/>
+2. you can get all lines of a category on : <br/>
+https://smile-spark.onrender.com/api/pickup-lines/funny <br/>
+just change category <br/> all above categories are available
