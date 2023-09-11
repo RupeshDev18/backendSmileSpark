@@ -131,6 +131,12 @@ app.get("/api/pickup-line/:category", (req, res) => {
 
   res.json({ pickupLine: randomLine });
 });
+app.get("/api/pickup-lines/:category", (req, res) => {
+  const { category } = req.params;
+  const lines = pickupLinesByCategory[category] || [];
+
+  res.json({ pickupLine: lines });
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
